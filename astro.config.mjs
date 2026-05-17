@@ -24,8 +24,6 @@ export default defineConfig({
   site: 'https://pato.github.io',
   output: 'static',
 
-  adapter: cloudflare(),
-
   vite: {
     plugins: [tailwindcss()],
   },
