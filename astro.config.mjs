@@ -22,7 +22,7 @@ const prettyCodeOptions = {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://pato.github.io',
-  output: 'server',
+  output: 'static',
 
   adapter: cloudflare(),
 
